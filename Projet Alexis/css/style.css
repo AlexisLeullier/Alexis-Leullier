@@ -1,0 +1,628 @@
+body,html{
+    padding:0%;
+    margin:0%;
+    background-color : white;
+    width: 100%;
+    height: 100%;   
+    
+}
+
+#wala{
+    width:260px;
+    height:200px;
+}
+
+header{
+    font-family: 'Pattaya', sans-serif;
+}
+
+.top-img{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #06599E;
+
+    
+}
+
+
+.top-font{
+    display: inline-block;
+    color: white;
+}
+
+.top-text{
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Pattaya', sans-serif;
+}
+
+h4{
+    text-decoration:underline;
+}
+
+#connexion{
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+    font-size:20px;
+    top: 0;
+    margin: 15px;
+    right: 0;
+}
+
+
+.box{
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+
+#yolo{
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    margin-left: 45%;
+    margin-top: 15px;
+}
+
+
+
+
+a{
+    color:white;
+    text-decoration: none
+}
+
+/*Drop menu*/
+
+
+
+#noidea ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: #0C1A25;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width: 100%
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    padding:0%;
+    margin:0%;
+  
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:#0C1A25;
+    margin: 15px;
+    font-size:25px;
+}
+
+
+#voila{
+    width: 100%;
+    height: 25%;
+}
+
+#yalah{
+    top: 0;
+    width: 100%;
+}
+
+.actu{
+    font-size: 40px;
+    text-decoration:underline;
+    margin-left:10px;
+    color:white;
+}
+
+
+
+#filactu{
+    background-image: linear-gradient(#0A0A0A, #242424);
+    width: 100%;
+    height: 800px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+iframe{
+    margin-left: 1.5%;
+    width:96.5%;
+    height:500px;
+    border-style: solid;
+    border-color: #0C1A25;
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+
+
+footer{
+    background-color:#0C1A25;
+    width:100%;
+    height:auto;
+    font-family: 'Pattaya', sans-serif;
+    
+}
+#politique{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+.idk{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+     
+}
+
+.gilet{
+    font-size: 19px;
+    margin-top: 10%
+}
+
+
+#image2{
+    width:340px;
+    height:250px;
+}
+
+
+#image3{
+    width:340px;
+    height:250px;
+}
+.titre-header{
+    font-size: 30px;
+    color: black;
+    
+}
+
+    /* ____________________________________________________
+
+                    FIN page 1
+      ____________________________________________________
+                                                            */ 
+
+
+#page-presentation{
+    background-color: #DCDCD4;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    padding: 2%;
+    margin-bottom: 6%;
+    -webkit-box-shadow: 0px 5px 18px 9px rgba(0,0,0,0.32); -moz-box-shadow: 0px 5px 18px 9px rgba(0,0,0,0.32); box-shadow: 0px 5px 18px 9px rgba(0,0,0,0.32);
+}                                                            
+
+#titre-presentation{
+    text-align: center;
+    font-size:5rem;
+    font-family: 'Pattaya', sans-serif;
+    margin: 0;
+
+}   
+
+.titre-second{
+    text-align: left;
+    margin-left: 5%;
+    padding: 2%;
+    font-size:2rem;
+    
+}
+
+.titre-troisieme{
+    text-align: center;
+    padding: 2%;
+    color: red;
+}
+
+.image-contenant{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:2%;
+}
+
+.image-contenant2{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+
+.feuille{
+        width: 100%;
+        height: 100%;
+    padding-bottom: 2%;
+    
+}
+
+span{
+    text-decoration: underline;
+    
+}
+
+.abpierre{
+    width: 100%;
+   
+}
+
+.text-contenant{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  
+
+.text-contenant-coller{
+    width: 85%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+p{
+    font-size:20px;
+    line-height: 2.5rem
+}
+
+#info{
+    text-align: center;
+}
+
+#objets-collecter{
+    line-height: 50px
+}
+
+#phone{
+    text-align:center
+}
+
+.noel{
+    font-family: 'Pacifico', cursive;
+    font-size:30px;
+    color:#900808;
+    line-height: 15px;
+}
+
+.contenant-noel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+#titre-noel{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#barre-blanche{
+    margin-top:3%;
+    margin-bottom:3%;
+    height: 5px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(to right, #e2e2e2,  white, #e2e2e2);
+    border-radius: 10px;
+    
+}
+/* Page de contact*//* Page de contact*//* Page de contact*//* Page de contact*/
+#contenant-text{
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+form{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%
+}
+
+.form-control{
+    width:100%;
+    background :transparent;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid grey;
+    color: black;
+    font-size:18px;
+    margin-bottom: 3%;
+}
+
+input{
+    height: 45px;
+}
+
+.form-control-submit{
+    background:#06599E;
+    border-color:transparent;
+    font-size : 20px;
+    font-weight: bold;
+    letter-spacing:2px;
+    height: 50px;
+    margin-top: 4%;
+    width: 100%;
+    margin-bottom: 3%
+}
+/*fin formulaire de contact*/
+/*.photo{
+
+width: 500px;
+height: 500px;
+}
+*/
+
+.gallery{
+  /*  margin: 10px 50px   */
+    /*gaffe*//*gaffe*//*gaffe*//*gaffe*/
+}
+
+.gallery img{
+    transition:1s;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.gallery img:hover{
+    filter:grayscale(100%);
+    transform:scale(1.1);
+}
+
+.boite-image{
+    display: flex;
+    flex-direction:row;
+    margin-right: auto;
+    margin-left: auto;
+    width:90%
+}
+
+.boite-image a {
+    margin: 0 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .first{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    #image1{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    #image2{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        
+        height:auto;
+    }
+
+    #image3{
+        width:100%;
+        height:auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%
+        
+    }
+
+    iframe{
+        width:94%;
+        margin:2.5%;
+    }
+
+    #filactu{
+        display:block;
+        height:auto;
+        
+    }
+
+    .actu{
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top:10%;
+        font-size:20px;
+        
+        
+    }
+    li a{
+        font-size: 15px
+    }
+    .box{
+        margin-left:5px;
+        margin-right: 5px;
+        
+    }
+    
+    #connexion{
+        position: absolute;
+        display:flex;
+        flex-direction: row;
+        font-size:14px;
+        top: 0;
+        margin-top: 0;
+        right: 0;
+    }
+
+    
+    .top-text{
+        font-size: 20px;
+        margin: 0;
+
+    }
+    
+    .titre-header{
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .top-img{
+        height: 180px;
+        
+    }
+
+    #wala{
+        width:130px;
+        height:100px;
+        margin-top: 10%
+        
+    }
+
+    body{
+        background-color: white;
+        width: 100%;
+        margin: 0;
+    }
+
+    #titre-presentation{
+        font-size: 2rem
+    }
+
+    li{
+        display:flex;
+        list-style-type: none;
+        padding: 0%;
+        margin: 0%;
+        justify-content: space-evenly;
+    }
+
+
+
+/* Page Vente*//* Page Vente*//* Page Vente*//* Page Vente*//* Page Vente*/
+    .contenant-noel{
+        display:block;
+        
+    }
+
+    .img-noel{
+        width:100%;
+        margin-top: 2%;
+    }
+
+
+    .boite-image{
+        display: block;
+    }
+
+    .noel{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .text-contenant-coller{
+        display: block;
+        
+    } 
+
+
+    .feuille{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 2%;
+        
+    }
+    
+
+   /* ____________________________________________________
+
+                    FIN RESPONSIV P1
+      ____________________________________________________
+                                                            */      
+}    
+
+
+
+/* Media queries de tablette*/
+@media only screen and (max-width: 1300px){
+    .img-noel{
+        width:100%
+    }
+
+    .contenant-noel{
+        display: block
+    }
+    
+   #filactu{
+       display: block;
+       width: 100%;
+       height: auto;
+   }
+   #image1{
+   margin-right: 5%;
+   margin-left: 5%;
+   height: auto;
+   width: 90%;
+
+   }
+   #image2{
+   margin-right: 25%;
+   margin-left: 25%;
+   height: auto;
+   width: 50%;
+
+   }
+   #image3{
+   margin-right: 25%;
+   margin-left: 25%;
+   height: auto;
+   width: 50%;
+   margin-bottom: 5%
+
+   }
+
+   .actu{
+       text-align: center
+   }
+
+   .gilet{
+       font-size: 10px;
+   }
+
+
+    
+    
+    
+   
+
+
+
+}
+
